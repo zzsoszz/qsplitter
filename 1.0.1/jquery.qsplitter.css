@@ -1,0 +1,38 @@
+.qsplitter-container{
+		background:#336699;
+		width:100%;
+		height:100%;
+		position:relative;
+}
+
+.qsplitter-panel {
+	  position:absolute;
+}
+
+.qsplitter-panel.left {
+		background:#445566;
+}
+
+.qsplitter-panel.right {
+		background:#7788FF;
+}
+
+
+.qsplitter-splitbar-v {
+	position:absolute;
+    background:#666699;
+    height: 6px;
+    -moz-user-select: none;
+    cursor: n-resize;
+}
+
+.qsplitter-splitbar-h {
+	position:absolute;
+    background:#666699;
+    height: 6px;
+    -moz-user-select: none;
+    cursor: e-resize;
+}
+
+
+    

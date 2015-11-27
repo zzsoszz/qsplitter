@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF=8">  
+
+<link type="text/css" rel="stylesheet" href="jquery.qsplitter.css" />
+<script type="text/javascript"  src="jquery-1.9.1.min.js" ></script>
+<script type="text/javascript"  src="jquery.qsplitter.js" ></script>
+
+
+<script>
+
+$(document).ready(
+	function()
+	{
+		$("#div1").qsplitter({size:150,min:0, max: 200,barsize:5,direction:"h"});	
+		$("#div2").qsplitter({size:50,min:50, max: 70,barsize:5,direction:"v"});	
+	}
+);
+
+</script>
+
+
+
+
+
+
+<style>
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div  id="showdiv"  style="position:relative;width:600px;height:200px;"   >
+	
+	<div class="qsplitter-container" id="div1">
+		<div class="qsplitter-panel left"  >
+			
+		</div>
+		<div class="qsplitter-panel right">
+			<div class="qsplitter-container" id="div2" >
+					<div class="qsplitter-panel left"  >
+						
+					</div>
+					<div class="qsplitter-panel right">
+						
+					</div>
+			</div>
+		</div>
+	</div>	
+
+</div>
+
+
+	
+</body>
+
+</html>
